@@ -2,4 +2,4 @@
 ## GIT samples 
 ###### GIT samples 
 
-# One more head
+# Master changes were made
