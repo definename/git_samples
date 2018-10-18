@@ -8,3 +8,4 @@
 # Here is message to resolve conflict
 # Here is patch message
 ## Here is one more patch message
+Here one more commit to test interactive rebase
