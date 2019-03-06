@@ -9,3 +9,8 @@
 # Here is patch message
 ## Here is one more patch message
 Here one more commit to test interactive rebase
+
+In order to delete branch on git server side we need to performe this command:
+```
+git push origin --delete branchname
+```
