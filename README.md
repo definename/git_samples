@@ -14,3 +14,8 @@ In order to delete branch on git server side we need to performe this command:
 ```
 git push origin --delete branchname
 ```
+
+To figure out this error: `fatal: refusing to merge unrelated histories` we need to do the following:
+```
+git merge submaster --allow-unrelated-histories
+```
