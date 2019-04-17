@@ -8,7 +8,7 @@
 # Here is message to resolve conflict
 # Here is patch message
 ## Here is one more patch message
-Here one more commit to test interactive rebase
+Here is one more commit to test interactive rebase
 
 
 :seedling: In order to delete branch on git server side we need to performe this command:
