@@ -27,7 +27,8 @@ git merge submaster --allow-unrelated-histories
 `HEAD^3` эквивалентно `HEAD^^^`. Указанные обозначения можно комбинировать `HEAD~3^2`
 
 :seedling: Set custom core editor
-```git config --global core.editor code```
+
+- VSCode `git config --global core.editor "code --wait"`
 
 :seedling: Configure `graph` alias
 ```git config --global alias.graph  "log --oneline --graph --all --decorate"```
