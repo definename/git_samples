@@ -10,12 +10,17 @@
 ## Here is one more patch message
 Here one more commit to test interactive rebase
 
-In order to delete branch on git server side we need to performe this command:
+
+:seedling: In order to delete branch on git server side we need to performe this command:
 ```
 git push origin --delete branchname
 ```
 
-To figure out this error: `fatal: refusing to merge unrelated histories` we need to do the following:
+:seedling: To figure out this error: `fatal: refusing to merge unrelated histories` we need to do the following:
 ```
 git merge submaster --allow-unrelated-histories
 ```
+
+:seedling: Ancestor reference. Difference bitween `HEAD^` and `HEAD~`
+
+Символ `^` и `~` в конце ссылки с точки зрения Git соответствует предку коммита. После этих символов можно указать число: `HEAD^2` которое будет указывать номер предка. Разница между ними заключается только в том что синтаксис `HEAD^2` применяется только с коммитани слияния.
