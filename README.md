@@ -25,3 +25,11 @@ git merge submaster --allow-unrelated-histories
 
 Символ `^` и `~` в конце ссылки с точки зрения Git соответствует предку коммита. После этих символов можно указать число: `HEAD^2` которое будет указывать номер предка. Разница между ними заключается только в том что синтаксис `HEAD^2` применяется только с коммитани слияния.
 `HEAD^3` эквивалентно `HEAD^^^`. Указанные обозначения можно комбинировать `HEAD~3^2`
+
+:seedling: Set custom core editor
+```git config --global core.editor code```
+
+:seedling: Configure `graph` alias
+```git config --global alias.graph  "log --oneline --graph --all --decorate"```
+
+
