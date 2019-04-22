@@ -34,6 +34,7 @@ git merge submaster --allow-unrelated-histories
 ```git config --global alias.graph  "log --oneline --graph --all --decorate"```
 
 :seedling: Git log show midified files only:
+
 ```git log --stat -1```
 
 ```git log --name-status -1```
