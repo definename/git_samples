@@ -38,6 +38,20 @@ git merge submaster --allow-unrelated-histories
 
 ```git log --name-only -1```
 
+## Initiali setup:
+
+### Local
+
+:seedling: `git config --local user.name "User Name"`
+
+:seedling: `git config --local user.email UserName@mail.com`
+
+### Global
+
+:seedling: `git config --global user.name "User Name"`
+
+:seedling: `git config --global user.email UserName@mail.com`
+
 ## Usefull alias
 
 :seedling: Configure `graph` alias
