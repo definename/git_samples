@@ -30,9 +30,6 @@ git merge submaster --allow-unrelated-histories
 
 - VSCode `git config --global core.editor "code --wait"`
 
-:seedling: Configure `graph` alias
-```git config --global alias.graph  "log --oneline --graph --all --decorate"```
-
 :seedling: Git log show modified files only:
 
 ```git log --stat -1```
@@ -40,5 +37,12 @@ git merge submaster --allow-unrelated-histories
 ```git log --name-status -1```
 
 ```git log --name-only -1```
+
+## Usefull alias
+
+:seedling: Configure `graph` alias
+```git config --global alias.graph  "log --oneline --graph --all --decorate"```
+
+
 
 
