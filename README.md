@@ -57,6 +57,11 @@ git merge submaster --allow-unrelated-histories
 :seedling: Configure `graph` alias
 ```git config --global alias.graph  "log --oneline --graph --all --decorate"```
 
+## Generate `ssh` on windows
+
+Launch: `C:\Program Files\Git\bin\bash.exe`
+Use: `ssh-keygen.exe` to generate public and private keys
+By default keys are stored in `c:/users/<current user>/.ssh` folder
 
 
 
