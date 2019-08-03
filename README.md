@@ -59,9 +59,9 @@ git merge submaster --allow-unrelated-histories
 
 ## Generate `ssh` on windows
 
-Launch: `C:\Program Files\Git\bin\bash.exe`
-Use: `ssh-keygen.exe` to generate public and private keys
-By default keys are stored in `c:/users/<current user>/.ssh` folder
+- Launch: `C:\Program Files\Git\bin\bash.exe`
+- Use: `ssh-keygen.exe` to generate public and private keys
+- By default keys are stored in `c:/users/<current user>/.ssh` folder
 
 
 
