@@ -38,7 +38,7 @@ git merge submaster --allow-unrelated-histories
 
 ```git log --name-only -1```
 
-## Initiali setup:
+## Initial setup:
 
 :seedling: User
 
