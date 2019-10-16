@@ -40,7 +40,7 @@ git merge submaster --allow-unrelated-histories
 
 ## Initiali setup:
 
-:seedling: ## User
+:seedling: User
 
 ```
 git config --local user.name "User Name"
@@ -49,9 +49,12 @@ git config --global user.name "User Name"
 git config --global user.email UserName@mail.com
 ```
 
-## Merge tool
-:seedling: `git config --global merge.tool medl`
-:seedling: `git config --global merge.tool kdiff3`
+:seedling: Merge tool
+
+```
+git config --global merge.tool medl
+git config --global merge.tool kdiff3
+```
 
 ## Usefull alias
 
