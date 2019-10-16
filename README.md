@@ -40,7 +40,7 @@ git merge submaster --allow-unrelated-histories
 
 ## Initiali setup:
 
-### User
+:seedling: User
 
 `git config --local user.name "User Name"`
 `git config --local user.email UserName@mail.com`
