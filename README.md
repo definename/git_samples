@@ -42,10 +42,10 @@ git merge submaster --allow-unrelated-histories
 
 ### User
 
-:seedling: `git config --local user.name "User Name"`
-:seedling: `git config --local user.email UserName@mail.com`
-:seedling: `git config --global user.name "User Name"`
-:seedling: `git config --global user.email UserName@mail.com`
+`git config --local user.name "User Name"`
+`git config --local user.email UserName@mail.com`
+`git config --global user.name "User Name"`
+`git config --global user.email UserName@mail.com`
 
 ## Merge tool
 :seedling: `git config --global merge.tool medl`
