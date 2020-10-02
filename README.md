@@ -30,14 +30,6 @@ git merge submaster --allow-unrelated-histories
 
 - VSCode `git config --global core.editor "code --wait"`
 
-:seedling: Git log show modified files only:
-
-```git log --stat -1```
-
-```git log --name-status -1```
-
-```git log --name-only -1```
-
 ## Initial setup:
 
 :seedling: User
@@ -54,6 +46,16 @@ git config --global user.email UserName@mail.com
 ```
 git config --global merge.tool medl
 git config --global merge.tool kdiff3
+```
+
+## Usefull commands
+
+:seedling: Git log show modified files only:
+
+```
+git log --stat -1
+git log --name-status -1
+git log --name-only -1
 ```
 
 ## Usefull alias
